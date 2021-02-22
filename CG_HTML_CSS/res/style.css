@@ -1,0 +1,218 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600;700&display=swap");
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: inherit;
+          box-sizing: inherit;
+}
+
+body {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  color: white;
+}
+
+nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+nav div {
+  padding-top: 15px;
+}
+
+nav li {
+  list-style: none;
+  float: left;
+  margin-left: 35px;
+}
+
+header {
+  height: 100vh;
+  background-image: url("./res_img/xf.webp");
+  background-size: cover;
+  background-position: top;
+  background-repeat: no-repeat;
+}
+
+header p {
+  font-weight: 600;
+  font-size: 18px;
+  margin-bottom: 30px;
+}
+
+header h1 {
+  font-size: 62px;
+  line-height: 65px;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  margin-bottom: 30px;
+}
+
+header button {
+  background-color: white;
+  border: 0.5px solid transparent;
+  font-size: 16px;
+  padding: 5px 25px;
+  font-family: "Poppins", sans-serif;
+  border-radius: 50px;
+  color: black;
+  cursor: pointer;
+  outline: none;
+  -webkit-transition: background-color 0.5s;
+  transition: background-color 0.5s;
+  -webkit-transition: color 0.4s;
+  transition: color 0.4s;
+  -webkit-transition-timing-function: ease;
+          transition-timing-function: ease;
+}
+
+header button:hover {
+  background-color: transparent;
+  color: white;
+  border: 0.5px solid white;
+}
+
+.heading-main {
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  margin-left: 400px;
+  margin-top: 200px;
+}
+
+section {
+  height: 60vh;
+  color: black;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.cont .sm {
+  font-size: 13px;
+  color: #B68834;
+}
+
+.cont h2 {
+  font-size: 40px;
+  line-height: 45px;
+  margin-bottom: 10px;
+}
+
+.cont h5 {
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+
+.cont p {
+  font-weight: 500;
+  margin-bottom: 22px;
+}
+
+.three {
+  height: 95vh;
+  background-image: url("./res_img/menu-bg.webp");
+  background-size: cover;
+  background-position: top;
+  background-repeat: no-repeat;
+  color: black;
+}
+
+.three h2 {
+  font-size: 40px;
+  text-align: center;
+  padding-top: 30px;
+}
+
+.three h5 {
+  font-size: 20px;
+  font-weight: 400;
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 40px;
+}
+
+.card-div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin-top: 80px;
+}
+
+.card-div h4 {
+  font-size: 20px;
+  font-weight: 500;
+  margin-top: 15px;
+}
+
+.card-div p {
+  margin-top: 5px;
+}
+
+.card-div h6 {
+  font-size: 18px;
+  margin-top: 12px;
+}
+
+footer {
+  height: 50vh;
+  background-image: url("./res_img/footer-bg.webp");
+  background-size: cover;
+  background-position: top;
+  background-repeat: no-repeat;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+footer div {
+  padding: 200px;
+}
+
+footer h2 {
+  font-size: 25px;
+  font-weight: 500;
+}
+
+footer .yes {
+  padding-top: 20px;
+  font-size: 26px;
+  padding-right: 20px;
+  cursor: pointer;
+}
+
+footer .yes:hover {
+  font-size: 28px;
+  color: #B68834;
+}
+/*# sourceMappingURL=style.css.map */
